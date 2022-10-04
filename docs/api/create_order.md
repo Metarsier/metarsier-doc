@@ -13,6 +13,7 @@ Method: `POST`
 | priceAmount     | number      | NO        | 法币金额                            |
 | priceCurrency   | string      | NO        | 法币币种 (CNY/USD/PHP/JPY)          |
 | receiveCurrency | string      | NO        | 提款币种 (USDT.ERC20/USDT.TRC20)    |
+| returnUrl       | string      | NO        | 跳转返回商家地址                        |
 
 > Request (数字币充值) 
 
@@ -21,7 +22,8 @@ Method: `POST`
     "refUserId": "13800138000",
     "refOrderId": "20220725103012560001",
     "amount": 50,
-    "coinName": "USDT.TRC20"
+    "coinName": "USDT.TRC20",
+    "returnUrl": "https://xxxxx.com"
 }
 ```
 
@@ -32,7 +34,8 @@ Method: `POST`
     "refUserId": "13800138000",
     "refOrderId": "20220725103012560001",
     "priceAmount": 50,
-    "priceCurrency": "CNY"
+    "priceCurrency": "CNY",
+    "returnUrl": "https://xxxxx.com"
 }
 ```
 

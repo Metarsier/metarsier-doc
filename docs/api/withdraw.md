@@ -17,6 +17,7 @@ Method: `POST`
 ```json
 {
     "refOrderId": "B93FCBC849D442DA901548AE6F0EA890",
+    "refUserId": "13800138000",
     "amount": 50,
     "coinName": "USDT.TRC20",
     "toAddress": "TKf3Rqc7f3fd2U7CP4xVbrDmaqYzsKPYR5"

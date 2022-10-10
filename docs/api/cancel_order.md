@@ -1,4 +1,4 @@
-# 创建支付订单
+# 取消订单
 URL: `/api/common/cancel-order`  
 Method: `POST`
 

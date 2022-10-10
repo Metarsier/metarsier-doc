@@ -7,7 +7,7 @@ Method: `POST`
 | 参数名            | 类型         | 是否必须   | 描述                                |
 | ------------     | ----------- | --------- | ---------------------------------- |
 | refUserId        | string      | YES       | 用户ID（商户内部）                    |
-| refOrderId       | string      | NO        | 订单ID（商户内部）                    |
+| refOrderId       | string      | NO        | 订单ID（商户内部，不传就是所有的订单）   |
 | type             | number      | YES       | 订单类型 （2:支付, 3:提现）            |
 
 > Request
